@@ -41,7 +41,7 @@ A simple WhatsApp User bot.
 
 - Run the following command:
   ```sh
-  wget -N -O levanter.sh http://bit.ly/43JqREw && chmod +x levanter.sh && ./levanter.sh
+  bash <(curl -fsSL http://bit.ly/43JqREw)
   ```
 
 #### Install without Script
@@ -73,7 +73,7 @@ A simple WhatsApp User bot.
    ```sh
    git clone https://github.com/lyfe00011/whatsapp-bot-md botName
    cd botName
-   yarn install --network-concurrency 1
+   yarn install
    ```
 
 6. **Enter Environment Variables:**
